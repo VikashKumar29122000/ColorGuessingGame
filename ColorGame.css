@@ -1,12 +1,11 @@
 body{
     background:#0c0c19;
+    margin: 0;
 }
-*{
-    
-}
+
 .square{
     width: 30%;
-    height: 200px;
+    padding-bottom: 150px;
     background: red;
     float: left;
     margin:1.66%;
@@ -16,16 +15,60 @@ body{
     
     max-width: 600px;
    margin: 0 auto;
+   margin-top: 20px;
+}
+#h1{
+    margin: 0;
 }
 h1{
     color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,4,0.6713060224089635) 97%);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
-.score{
+#chances{
     color:white;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 400px;
 }
-div #message{
-    color: white;
+#message{
+    color:whitesmoke;
+    text-align: center;
+    padding-bottom: 6px;
 }
 .time-remained{
     color: white;
+    text-align: center;
+    font-weight: 900;
+    font-family: sans-serif;
+
+}
+#strip{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color:black;
+}
+.selected{
+    background:black;
+    color:white;
+    
+}
+button{
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 0 20px;
+    border-top: 0px solid #0c0c19;
+    border-bottom:0px solid #0c0c19 ;
+}
+#colorDisplay{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: xx-large;
 }

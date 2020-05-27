@@ -8,9 +8,12 @@
     <title>Color Game</title>
 </head>
 <body>
-    <h1>The great <span id="colorDisplay"></span> Guessing Game</h1>
-    <div>
-        <span id="message" ></span>
+    <h1 id="hi">The great <br><span id="colorDisplay"></span> <br>Guessing Game</h1>
+    <div id="strip">
+        <button id="reset">New Colors</button>
+        <button id="easybtn" class="selected">Easy</button>
+        <button id="hardbtn" >Hard</button>
+        
     </div>
     <div class="container">
         <div class="square"></div>
@@ -22,7 +25,9 @@
     </div>
     
 
-    <h1 class="score"><span id="chances"></span></h1>
+    <div id="chances"></div>
+    <div id="message" ></div>
+    
 
     <div class="time-remained" >Time Remaining
         <div class="time-left">0:<span id="time"></span></div>
