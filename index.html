@@ -8,7 +8,10 @@
     <title>Color Game</title>
 </head>
 <body>
-    <h1>The great <span id="colorDisplay"></span> Game</h1>
+    <h1>The great <span id="colorDisplay"></span> Guessing Game</h1>
+    <div>
+        <span id="message" ></span>
+    </div>
     <div class="container">
         <div class="square"></div>
         <div class="square"></div>
@@ -17,9 +20,13 @@
         <div class="square"></div>
         <div class="square"></div>
     </div>
-    <br>
+    
 
-    <h1 class="score">You took <span id="chances">0</span> Chances</h1>
+    <h1 class="score"><span id="chances"></span></h1>
+
+    <div class="time-remained" >Time Remaining
+        <div class="time-left">0:<span id="time"></span></div>
+    </div>
     <script src="ColorGame.js"></script>
 </body>
 </html>
