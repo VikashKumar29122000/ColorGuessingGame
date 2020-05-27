@@ -95,8 +95,8 @@ ResetButton.addEventListener("click",function(){
                         blocks[j].style.backgroundColor=PickedColor;
                     }
                     chances=chances+1;
-                    chance.textContent=`${chances} chances taken`;
-                    messageDisplay.textContent="Correct!";
+                    chance.textContent="Great!";
+                    messageDisplay.textContent="You Are a Guess Master!";
                     h1.style.background=PickedColor;
                 }
                 win=1;
@@ -152,8 +152,8 @@ for(var i=0;i<blocks.length;i++)
                 }
                 if(reset==0)
                     chances=chances+1;
-                chance.textContent=`${chances} chances taken`;
-                messageDisplay.textContent="Correct!";
+                chance.textContent="Great!";
+                messageDisplay.textContent="You Are a Guess Master!";
                 h1.style.background=PickedColor;
             }
             win=1;
