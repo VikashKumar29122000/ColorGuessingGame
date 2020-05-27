@@ -1,0 +1,25 @@
+body{
+    background:#0c0c19;
+}
+*{
+    
+}
+.square{
+    width: 30%;
+    height: 200px;
+    background: red;
+    float: left;
+    margin:1.66%;
+    border-radius: 10%;
+}
+.container{
+    
+    max-width: 600px;
+   margin: 0 auto;
+}
+h1{
+    color: white;
+}
+.score{
+    color:white;
+}
